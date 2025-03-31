@@ -1,12 +1,102 @@
-# React + Vite
+# MovieDB React Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application for browsing movies, managing favorites, and discovering new films using The Movie Database (TMDB) API.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Browse popular movies
+- Search functionality
+- Add/remove favorites
+- Responsive design
+- Loading placeholders
+- Movie details view
+- Redux state management
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19
+- Redux Toolkit
+- React Router v7
+- Bootstrap 5
+- Axios
+- Vite
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm (v9 or higher)
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <your-repo-url>
+cd react-d3
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Create a `.env` file in the root directory and add your TMDB API key:
+```env
+VITE_API_KEY=your_tmdb_api_key_here
+```
+
+4. Start the development server:
+```bash
+npm run dev
+```
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── about/
+│   ├── dashboard/
+│   ├── favorites/
+│   ├── home/
+│   ├── layout/
+│   └── navbar/
+├── redux/
+│   ├── slices/
+│   └── store.js
+└── main.jsx
+```
+
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run lint` - Run ESLint
+- `npm run preview` - Preview production build
+
+## State Management
+
+The application uses Redux Toolkit for state management with the following slices:
+- Movies: Manages movie list and loading states
+- Favorites: Handles user's favorite movies
+- Search: Manages search functionality
+
+## API Integration
+
+The application integrates with TMDB API for fetching movie data:
+- Popular movies
+- Movie details
+- Search results
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
