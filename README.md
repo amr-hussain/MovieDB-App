@@ -32,7 +32,7 @@ A modern React application for browsing movies, managing favorites, and discover
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/amr-hussain/MovieDB-App/
 cd react-d3
 ```
 
