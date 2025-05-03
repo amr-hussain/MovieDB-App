@@ -1,5 +1,5 @@
 # MovieDB React Application
-
+![image](https://github.com/user-attachments/assets/a7e4821d-8364-44b7-8bfe-814f2931bb2d)
 A modern React application for browsing movies, managing favorites, and discovering new films using The Movie Database (TMDB) API.
 
 ## Features
@@ -100,3 +100,4 @@ The application integrates with TMDB API for fetching movie data:
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
