@@ -8,7 +8,6 @@ const About = () => {
         <h1 className="display-4 fw-bold">About Us</h1>
         <p className="lead text-muted">Streamlined movie discovery, served fresh.</p>
       </div>
-
       <div className="row justify-content-center">
         <div className="col-lg-10">
           <div className="card shadow border-0">
